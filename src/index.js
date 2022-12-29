@@ -1,5 +1,5 @@
 const { compose } = require('ramda');
-const withOnlyPackageCommits = require('./only-package-commits');
+const { withOnlyPackageCommits } = require('./only-package-commits');
 const versionToGitTag = require('./version-to-git-tag');
 const logPluginVersion = require('./log-plugin-version');
 const { getPackageInfoSync } = require('./package-info');
